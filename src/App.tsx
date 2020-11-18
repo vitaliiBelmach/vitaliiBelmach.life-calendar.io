@@ -19,7 +19,7 @@ function App({ dataString }: { dataString: string }) {
     localStorage.setItem('visits', `${visits}`);
     if (visits === 1) {
       toast({
-        title: 'Welcome',
+        title: 'Welcome, Vitalii',
         description: `- Each box is a week - Click "Events" to manage them - Works better on Desktop`,
         status: 'info',
         duration: 12000,
